@@ -1,0 +1,20 @@
+{
+  "name": "tarefas-em-background-dio",
+  "version": "1.0.0",
+  "description": "Projeto criado para guardar meus scripts do curso de tarefas em background utilizando Node.js e Redis",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sucrase": "^3.34.0"
+  }
+}
